@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class LongQuiz{
+    public static void main(String[] args){
+        // Dylan Gabriel Santos
+       Scanner s = new Scanner(System.in);
+       int num, remainder;
+       System.out.print("Enter a number to be identified:   ");
+       num = s.nextInt();
+       remainder = num % 2;
+
+       if(remainder == 0){
+        System.out.print("Then it is an Even number");
+       }else{
+        System.out.print("Then it is an Odd number");
+       }
+
+
+
+    }
+}
+
